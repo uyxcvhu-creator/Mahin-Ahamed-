@@ -591,11 +591,26 @@ background:linear-gradient(90deg,#0b0809ed 0%,#0b0809b9 65%,#0b080980)
 .quick a{justify-content:flex-start}
 .reviewintro,.reviewform,.bookingbox{padding:19px}
 }
+.background-animation {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #900;
+  }
+  50% {
+    background-color: #d00;
+  }
+  100% {
+    background-color: #900;
+  }
+}
 </style>
 </head>
 <body>
 
-<header>
+\`. background-animation{\`|<header>
 <div class="wrap nav">
 
 <a class="brand" href="#home">
